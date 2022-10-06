@@ -1,0 +1,51 @@
+.header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: blue;
+}
+
+.form-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 6px 0;
+}
+
+.search-form {
+  background-color: #d0d2e6;
+  width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input {
+  all: unset;
+  font: 16px system-ui;
+  color: rgb(26, 24, 24);
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+  &::placeholder {
+    color: rgb(26, 24, 24);
+    opacity: 0.3;
+  }
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  color: rgb(26, 24, 24);
+  opacity: 0.3;
+  font-size: 20px;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    opacity: 1;
+  }
+}

@@ -20,10 +20,10 @@ function onFormSubmit(event) {
 
 function renderGallery(fetchResult) {
   galleryRef.insertAdjacentHTML('beforeend', galleryTemplate(fetchResult));
-}
 
-const lightbox = new SimpleLightbox('.gallery a', {
-  captionsData: 'alt',
-  captionDelay: 250,
-  captionClass: 'custom-caption',
-});
+  const lightbox = new SimpleLightbox('.gallery a', {
+    captionsData: 'alt',
+    captionDelay: 250,
+    captionClass: 'custom-caption',
+  });
+}

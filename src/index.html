@@ -20,5 +20,12 @@
     <!-- <include src="./partials/example.html"></include> -->
     <include src="./partials/header.html"></include>
     <include src="./partials/main.html"> </include>
+    <script>
+      const { height: pageHeaderHeight } = document
+        .querySelector('.header')
+        .getBoundingClientRect();
+
+      document.body.style.paddingTop = `${pageHeaderHeight}px`;
+    </script>
   </body>
 </html>

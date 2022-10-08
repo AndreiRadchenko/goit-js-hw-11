@@ -21,6 +21,7 @@
     "@fortawesome/fontawesome-free": "^6.2.0",
     "axios": "^1.0.0",
     "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5",
     "parcel-transformer-hbs": "^1.0.4",
     "simplelightbox": "^2.10.3"
   },
